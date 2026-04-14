@@ -1,8 +1,8 @@
-import { getProjects } from "$lib/content"
+import { getContactCvPage } from "$lib/content"
 import type { PageServerLoad } from "./$types"
 
 export const load: PageServerLoad = async () => {
 	return {
-		projects: await getProjects()
+		page: await getContactCvPage()
 	}
 }

@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "wrangler types --check && bunx --bun vite build",
-		"preview": "bun run build && wrangler dev",
+		"preview": "bun run build && wrangler pages dev",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "wrangler types --check && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -27,6 +27,7 @@
 		"@tailwindcss/forms": "^0.5.11",
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/bun": "^1.3.11",
+		"@types/jsdom": "^28.0.1",
 		"@types/node": "^24.12.2",
 		"eslint": "^10.2.0",
 		"eslint-config-prettier": "^10.1.8",
@@ -46,6 +47,9 @@
 	"dependencies": {
 		"@lucide/svelte": "^1.8.0",
 		"@sveltia/cms": "^0.153.0",
-		"gray-matter": "^4.0.3"
+		"dompurify": "^3.4.0",
+		"gray-matter": "^4.0.3",
+		"jsdom": "^29.0.2",
+		"marked": "^18.0.0"
 	}
 }

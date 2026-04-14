@@ -3,14 +3,5 @@
 	"name": "westwood-site",
 	"compatibility_date": "2026-04-14",
 	"compatibility_flags": ["nodejs_compat"],
-	"main": ".svelte-kit/cloudflare/_worker.js",
-	"assets": {
-		"binding": "ASSETS",
-		"directory": ".svelte-kit/cloudflare"
-	},
-	"workers_dev": true,
-	"preview_urls": true,
-	"observability": {
-		"enabled": true
-	}
+	"pages_build_output_dir": ".svelte-kit/cloudflare"
 }

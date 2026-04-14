@@ -1,5 +1,7 @@
 <script lang="ts">
-	import CMS, { type CmsConfig } from "@sveltia/cms"
+	import { browser } from "$app/environment"
+	import type { CmsConfig } from "@sveltia/cms"
+	import { onMount } from "svelte"
 
 	const config: CmsConfig = {
 		load_config_file: false,
@@ -12,6 +14,30 @@
 		public_folder: "/uploads",
 
 		collections: [
+			{
+				name: "pages",
+				label: "Pages",
+				files: [
+					{
+						name: "about",
+						label: "About",
+						file: "/content/pages/about.md",
+						fields: [
+							{ name: "title", label: "Title", widget: "string" },
+							{ name: "content", label: "Content", widget: "markdown" }
+						]
+					},
+					{
+						name: "contactCv",
+						label: "Contact & CV",
+						file: "/content/pages/contact-cv.md",
+						fields: [
+							{ name: "title", label: "Title", widget: "string" },
+							{ name: "content", label: "Content", widget: "markdown" }
+						]
+					}
+				]
+			},
 			{
 				name: "projects",
 				label: "Projects",
@@ -37,5 +63,9 @@
 		]
 	}
 
-	CMS.init({ config })
+	onMount(async () => {
+		if (!browser) return
+		const { init } = await import("@sveltia/cms")
+		init({ config })
+	})
 </script>

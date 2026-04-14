@@ -20,12 +20,16 @@
 	} = $props()
 </script>
 
-<header class={["flex items-center justify-center pt-8 pb-8", _class]} style={_style}>
+<header class={["flex w-full items-center justify-center pt-8 pb-8", _class]} style={_style}>
 	<div class={["flex flex-col gap-y-3", boxClass]}>
 		<a href={resolve("/")} class="text-2xl! sm:text-5xl!">Kasie Westwood</a>
 		<div class="flex flex-wrap justify-center gap-6">
 			{#each links as { href, text }}
-				<a href={resolve(href)} class="hoverunderline" class:onpage={href === page.url.pathname}>
+				<a
+					href={resolve(href)}
+					class="hoverunderline"
+					class:onpage={page.url.pathname.startsWith(href)}
+				>
 					<span>{text}</span>
 				</a>
 			{/each}
@@ -52,10 +56,9 @@
 			&::after {
 				content: "";
 				transition:
-					transform 0.3s,
+					scale 0.3s,
 					opacity 0.2s;
-				transition-timing-function: ease-in-out;
-				@apply absolute bottom-0 left-0 h-[0.1em] w-full origin-center scale-0 bg-(--anchor-font-color) opacity-0;
+				@apply absolute right-0 bottom-0 left-0 h-[0.1em] w-full origin-center scale-0 bg-(--anchor-font-color) opacity-0;
 			}
 		}
 		&:hover span::after {

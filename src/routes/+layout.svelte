@@ -27,7 +27,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="flex min-h-screen flex-col">
+<div class="flex min-h-screen flex-col items-center">
 	<Header
 		class={page.url.pathname === "/" ? "flex-1 bg-cover bg-no-repeat" : ""}
 		style={page.url.pathname === "/" ? `background-image: url("${BackgroundImage}")` : ""}
@@ -37,9 +37,10 @@
 	{#if page.url.pathname !== "/"}
 		<hr class="hr w-[90%] self-center" />
 
-		<main class="m-6 mb-20 flex-1">
+		<main class="m-6 mb-20 w-full max-w-4xl flex-1">
 			{@render children()}
 		</main>
 	{/if}
+
 	<Footer />
 </div>
