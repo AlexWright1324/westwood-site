@@ -1,4 +1,4 @@
-import adapter from "@sveltejs/adapter-auto"
+import adapter from "@sveltejs/adapter-static"
 import { Config } from "@sveltejs/kit"
 
 const config: Config = {
@@ -7,7 +7,7 @@ const config: Config = {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes("node_modules") ? undefined : true)
 	},
 	kit: {
-		adapter: adapter()
+		adapter: adapter({})
 	}
 }
 

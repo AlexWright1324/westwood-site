@@ -1,10 +1,9 @@
 <script lang="ts">
-	import { browser } from "$app/environment"
 	import CMS, { type CmsConfig } from "@sveltia/cms"
-	import { onMount } from "svelte"
 
 	const config: CmsConfig = {
 		load_config_file: false,
+		site_url: "https://kasiewestwood.co.uk",
 		backend: {
 			name: "github",
 			repo: "AlexWright1324/westwood-site"
