@@ -8,7 +8,7 @@
 
 	import { onNavigate } from "$app/navigation"
 
-	let { children, data } = $props()
+	let { children } = $props()
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return
@@ -41,5 +41,5 @@
 			{@render children()}
 		</main>
 	{/if}
-	<Footer session={data.session} />
+	<Footer />
 </div>
