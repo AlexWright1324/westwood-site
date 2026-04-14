@@ -27,9 +27,5 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# Prisma / Sqlite
-*.db
-prisma/generated
-
-# Storage
-/files
+.dev.vars*
+!.dev.vars.example
