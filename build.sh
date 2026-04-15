@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-bun install --production --frozen-lockfile && bun run build
+bun install --production --frozen-lockfile && bun run --bun build
