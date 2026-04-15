@@ -1,6 +1,7 @@
 import { getContactCvPage } from "$lib/content"
 import { error } from "@sveltejs/kit"
 import type { PageServerLoad } from "./$types"
+import { htmlToText } from "$lib/markdown"
 
 export const load: PageServerLoad = async () => {
 	const page = await getContactCvPage()
@@ -10,6 +11,7 @@ export const load: PageServerLoad = async () => {
 	}
 
 	return {
-		page
+		page,
+		metaDescription: htmlToText(page.content)
 	}
 }

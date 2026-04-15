@@ -42,6 +42,8 @@
 		<main class="mb-20 w-full max-w-7xl flex-1 p-6">
 			{@render children()}
 		</main>
+	{:else}
+		{@render children()}
 	{/if}
 
 	<Footer />

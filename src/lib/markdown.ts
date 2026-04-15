@@ -86,3 +86,16 @@ marked.use({ renderer })
 export const generateMarkdown = async (markdown: string) => {
 	return DP.sanitize(await marked(markdown))
 }
+
+export const htmlToText = (html: string) => {
+	const window = new JSDOM(html).window
+	const parser = window.document
+	const walker = parser.createTreeWalker(parser, window.NodeFilter.SHOW_TEXT, null)
+
+	const textParts: string[] = []
+	while (walker.nextNode()) {
+		if (walker.currentNode.textContent) textParts.push(walker.currentNode.textContent)
+	}
+
+	return textParts.join("\n")
+}

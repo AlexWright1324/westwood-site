@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<title>Projects - Kasie Westwood</title>
+	<meta name="description" content="Projects by Kasie Westwood" />
 </svelte:head>
 
 <ul class="flex flex-col gap-4">

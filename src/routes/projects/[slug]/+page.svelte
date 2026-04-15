@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>{data.project.title} - Kasie Westwood</title>
+	<meta name="description" content={data.metaDescription} />
 </svelte:head>
 
 <section class="flex flex-col gap-8">

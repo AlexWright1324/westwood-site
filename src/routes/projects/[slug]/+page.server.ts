@@ -1,6 +1,7 @@
 import { getProjectBySlug, getProjects } from "$lib/content"
 import { error } from "@sveltejs/kit"
 import type { EntryGenerator, PageServerLoad } from "./$types"
+import { htmlToText } from "$lib/markdown"
 
 export const entries: EntryGenerator = async () => {
 	const projects = await getProjects()
@@ -15,6 +16,7 @@ export const load: PageServerLoad = async ({ params }) => {
 	}
 
 	return {
-		project
+		project,
+		metaDescription: htmlToText(project.statement)
 	}
 }
