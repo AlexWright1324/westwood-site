@@ -11,3 +11,4 @@
 
 @import "./theme.css";
 @import "./markdown.css";
+@custom-variant dark (&:where(.dark, .dark *));
