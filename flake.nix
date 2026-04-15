@@ -30,6 +30,12 @@
             packages = with pkgs; [
               bun
             ];
+            LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
+              pkgs.stdenv.cc.cc.lib
+              pkgs.vips
+              pkgs.glib
+              pkgs.zlib
+            ];
           };
 
           pre-commit.settings.hooks = {

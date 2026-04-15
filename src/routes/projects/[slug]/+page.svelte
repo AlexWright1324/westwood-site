@@ -39,7 +39,7 @@
 					class="group flex h-full flex-col divide-y divide-surface-200-800 overflow-hidden card border preset-outlined-surface-200-800 preset-filled-surface-100-900 card-hover"
 				>
 					<div class="flex flex-1 overflow-hidden bg-linear-to-b from-white to-surface-100-900">
-						<img
+						<enhanced:img
 							class="w-full object-contain transition duration-300 group-hover:scale-[1.03]"
 							src={piece.image}
 							alt={piece.title}
