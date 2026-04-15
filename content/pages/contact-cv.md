@@ -5,7 +5,7 @@ content: |-
 
   Email: kasiewestwood2004@icloud.com
 
-  Instagram: @kasiewestwood
+  Instagram: [@kasiewestwood](https://www.instagram.com/kasiewestwood/)
 
   ### CV
 ---
