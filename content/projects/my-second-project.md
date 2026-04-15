@@ -7,4 +7,24 @@ pieces:
     medium: Charcoal on Paper
     dimensions: 57cm x 40cm
     image: /uploads/Looming Abyss.jpg
+  - title: Self-Pity
+    year: '2025'
+    medium: Charcoal on Paper
+    dimensions: 57cm x 40cm
+    image: /uploads/Self-Pity.jpg
+  - title: How Far Can I Go?
+    year: '2026'
+    medium: Charcoal on Paper
+    dimensions: 60cm x 42cm
+    image: /uploads/How Far Can I Go.jpeg
+  - title: Where Am I?
+    year: '2026'
+    medium: Charcoal on Paper
+    dimensions: 60cm x 42cm
+    image: /uploads/Where Am I.jpg
+  - title: Do You Really Understand?
+    year: '2026'
+    medium: Charcoal on Paper
+    dimensions: 60cm x 42cm
+    image: /uploads/Do You Really Understand.jpeg
 ---
