@@ -1,5 +1,11 @@
 ---
 title: Contact & CV
 content: |-
-  ### Add your contact details and CV information here.
+  ### Contacts
+
+  Email: kasiewestwood2004@icloud.com
+
+  Instagram: @kasiewestwood
+
+  ### CV
 ---
