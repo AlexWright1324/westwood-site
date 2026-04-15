@@ -1,6 +1,6 @@
 ---
 title: Oh! The Horror!
-statement: Classic horror movie monsters, once villainised and othered, are reclaimed in ‘**_Oh! The Horror!_**_’_. The likes of vampires, werewolves and Frankenstein’s monster become vessels for trans-rage, expressing feelings of resentment towards society, stereotyping and false preconceptions. I became fascinated with the idea of the sympathetic monster, taking direct inspiration from my love of horror-based media and marrying it with personal struggles with gender and transformation.
+statement: Classic horror movie monsters, once villainised and othered, are reclaimed in ‘\*\*_Oh! The Horror!_\*\*_’_. The likes of vampires, werewolves and Frankenstein’s monster become vessels for trans-rage, expressing feelings of resentment towards society, stereotyping and false preconceptions. I became fascinated with the idea of the sympathetic monster, taking direct inspiration from my love of horror-based media and marrying it with personal struggles with gender and transformation.
 pieces:
   - title: But to Myself, I Simply Am
     year: '2025'
