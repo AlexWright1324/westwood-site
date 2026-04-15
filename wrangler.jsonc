@@ -3,7 +3,7 @@
 	"name": "westwood-site",
 	"compatibility_date": "2026-04-14",
 	"compatibility_flags": ["nodejs_compat"],
-	"pages_build_output_dir": ".svelte-kit/cloudflare",
+	"pages_build_output_dir": "build",
 	"vars": {
 		"SKIP_DEPENDENCY_INSTALL": "true"
 	}

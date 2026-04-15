@@ -29,4 +29,4 @@ vite.config.ts.timestamp-*
 
 .dev.vars*
 !.dev.vars.example
-./worker-configuration.d.ts
+/worker-configuration.d.ts
