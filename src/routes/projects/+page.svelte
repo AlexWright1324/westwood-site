@@ -2,6 +2,10 @@
 	let { data } = $props()
 </script>
 
+<svelte:head>
+	<title>Projects - Kasie Westwood</title>
+</svelte:head>
+
 <ul class="flex flex-col gap-4">
 	{#each data.projects as project}
 		<li>

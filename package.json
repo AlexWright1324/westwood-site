@@ -45,6 +45,7 @@
 		"wrangler": "^4.81.0"
 	},
 	"dependencies": {
+		"@fontsource/montserrat": "^5.2.8",
 		"@lucide/svelte": "^1.8.0",
 		"@sveltia/cms": "^0.153.0",
 		"dompurify": "^3.4.0",

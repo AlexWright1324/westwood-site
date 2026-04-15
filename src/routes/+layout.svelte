@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-	<title>K. Westwood</title>
+	<title>Kasie Westwood</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
@@ -31,13 +31,15 @@
 	<Header
 		class={page.url.pathname === "/" ? "flex-1 bg-cover bg-no-repeat" : ""}
 		style={page.url.pathname === "/" ? `background-image: url("${BackgroundImage}")` : ""}
-		boxClass={page.url.pathname === "/" ? "bg-black/20 p-6 rounded-2xl" : ""}
+		boxClass={page.url.pathname === "/"
+			? "bg-surface-100-900/30 p-6 rounded-2xl m-3 text-shadow-lg backdrop-blur-sm"
+			: ""}
 	/>
 
 	{#if page.url.pathname !== "/"}
 		<hr class="hr w-[90%] self-center" />
 
-		<main class="m-6 mb-20 w-full max-w-4xl flex-1">
+		<main class="mb-20 w-full max-w-7xl flex-1 p-6">
 			{@render children()}
 		</main>
 	{/if}

@@ -1,0 +1,5 @@
+/* Tailwind CSS classes for styling markdown content. */
+
+.markdown {
+	@apply space-y-2;
+}
