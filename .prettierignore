@@ -10,3 +10,6 @@ bun.lockb
 
 # SvelteKit
 src/app.html
+
+# CMS
+/content/

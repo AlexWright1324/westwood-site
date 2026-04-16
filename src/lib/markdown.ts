@@ -83,8 +83,8 @@ const renderer: Partial<Renderer> = {
 
 marked.use({ renderer })
 
-export const generateMarkdown = async (markdown: string) => {
-	return DP.sanitize(await marked(markdown))
+export const generateMarkdown = (markdown: string) => {
+	return DP.sanitize(marked.parse(markdown, { async: false }))
 }
 
 export const htmlToText = (html: string) => {

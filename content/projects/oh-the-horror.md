@@ -6,25 +6,25 @@ pieces:
     year: "2025"
     medium: Acrylic on Steel
     dimensions: 20cm x 20cm
-    image: /uploads/But To Myself, I Simply Am.jpg
+    image: /src/lib/assets/uploads/But To Myself, I Simply Am.jpg
   - title: You Made Me This Way
     year: "2026"
     medium: Acrylic on Steel
     dimensions: 20cm x 20cm
-    image: /uploads/You Made Me This Way.jpg
+    image: /src/lib/assets/uploads/You Made Me This Way.jpg
   - title: Primal Form
     year: "2026"
     medium: Acrylic on Steel
     dimensions: 20cm x 20cm
-    image: /uploads/Primal Form - Kasie Westwood.jpg
+    image: /src/lib/assets/uploads/Primal Form - Kasie Westwood.jpg
   - title: Skin Deep (Maybe Deeper)
     year: "2026"
     medium: Acrylic and Oil on Steel
     dimensions: 20cm x 20cm
-    image: /uploads/Skin Deep (Maybe Deeper).jpeg
+    image: /src/lib/assets/uploads/Skin Deep (Maybe Deeper).jpeg
   - title: It’s Not You, It’s Me
     year: "2026"
     medium: Acrylic and Oil on Steel
     dimensions: 20cm x 20cm
-    image: /uploads/It's Not You, It's Me.jpg
+    image: /src/lib/assets/uploads/It's Not You, It's Me.jpg
 ---

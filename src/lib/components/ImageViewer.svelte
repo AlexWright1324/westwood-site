@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { XIcon } from "@lucide/svelte"
 	import { Dialog, Portal } from "@skeletonlabs/skeleton-svelte"
+	import type { Picture } from "@sveltejs/enhanced-img"
 	import type { Snippet } from "svelte"
 	import type { ClassValue } from "svelte/elements"
 
@@ -9,7 +10,7 @@
 		alt,
 		children,
 		class: _class
-	}: { src: string; alt: string; children: Snippet; class: ClassValue } = $props()
+	}: { src: string | Picture; alt: string; children: Snippet; class: ClassValue } = $props()
 </script>
 
 <Dialog>

@@ -6,20 +6,20 @@ pieces:
     year: "2025"
     medium: Oil on Canvas
     dimensions: 59cm x 42cm
-    image: /uploads/Vida Masculina.jpg
+    image: /src/lib/assets/uploads/Vida Masculina.jpg
   - title: Effeminare
     year: "2025"
     medium: Oil on Canvas
     dimensions: 59cm x 42cm
-    image: /uploads/Effeminare.jpg
+    image: /src/lib/assets/uploads/Effeminare.jpg
   - title: Maschismo
     year: "2025"
     medium: Oil on Canvas
     dimensions: 59cm x 42cm
-    image: /uploads/Machismo.jpg
+    image: /src/lib/assets/uploads/Machismo.jpg
   - title: Aphroditus
     year: "2025"
     medium: Oil on Canvas
     dimensions: 59cm x 42cm
-    image: /uploads/Aphroditus.jpg
+    image: /src/lib/assets/uploads/Aphroditus.jpg
 ---

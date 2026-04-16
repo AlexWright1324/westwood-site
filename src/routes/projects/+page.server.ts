@@ -1,8 +1,8 @@
-import { getProjects } from "$lib/content"
+import { getEntryCollection } from "$lib/cms/content"
 import type { PageServerLoad } from "./$types"
 
 export const load: PageServerLoad = async () => {
 	return {
-		projects: await getProjects()
+		projects: getEntryCollection("projects")
 	}
 }
