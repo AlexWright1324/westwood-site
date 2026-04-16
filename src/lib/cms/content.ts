@@ -22,7 +22,15 @@ const allEnhancedImages = import.meta.glob<Picture>(
 	}
 )
 
-const allSVGFiles = import.meta.glob<string>("/content/**/*.svg", {
+const allImages = import.meta.glob<string>(
+	"/src/lib/assets/uploads/**/*.{avif,AVIF,gif,GIF,heif,HEIF,jpeg,JPEG,jpg,JPG,png,PNG,tiff,TIFF,webp,WEBP}",
+	{
+		eager: true,
+		import: "default"
+	}
+)
+
+const allSVGFiles = import.meta.glob<string>("/src/lib/assets/uploads/**/*.svg", {
 	eager: true,
 	query: "?url",
 	import: "default"
@@ -35,13 +43,24 @@ export const fieldProcessors = {
 	image: (value: unknown) => {
 		const str = value as string
 		const enhanced = allEnhancedImages[str]
-		if (enhanced) return enhanced
+		const image = allImages[str]
+		if (enhanced && image) {
+			return {
+				src: image,
+				enhanced
+			}
+		}
 
 		const svg = allSVGFiles[str]
-		if (svg) return svg
+		if (svg)
+			return {
+				src: svg
+			}
 
 		// Remote URL
-		return str
+		return {
+			src: str
+		}
 	}
 } as const
 

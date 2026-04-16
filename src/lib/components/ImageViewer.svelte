@@ -10,7 +10,7 @@
 		alt,
 		children,
 		class: _class
-	}: { src: string | Picture; alt: string; children: Snippet; class: ClassValue } = $props()
+	}: { src: string; alt: string; children: Snippet; class: ClassValue } = $props()
 </script>
 
 <Dialog>
@@ -20,15 +20,17 @@
 	<Portal>
 		<Dialog.Backdrop class="fixed inset-0 z-50 bg-surface-50-950/80" />
 		<Dialog.Positioner class="fixed inset-0 z-50 m-4 flex items-center justify-center p-4">
-			<Dialog.Content class="relative overflow-hidden bg-surface-50-950 shadow-2xl">
-				<enhanced:img
-					class="block h-auto w-auto object-contain"
+			<Dialog.Content class="">
+				<img
+					class="object-contain"
 					style="max-width: calc(100vw - 4rem); max-height: calc(100vh - 4rem);"
-					{src}
 					{alt}
+					{src}
 				/>
-				<Dialog.CloseTrigger class="fixed top-4 right-4 z-60 btn-icon block">
-					<XIcon size={32} />
+				<Dialog.CloseTrigger
+					class="fixed top-4 right-4 z-60 btn-icon flex h-8 w-8 rounded-full preset-filled-surface-100-900 card-hover"
+				>
+					<XIcon class="h-full w-full" />
 				</Dialog.CloseTrigger>
 			</Dialog.Content>
 		</Dialog.Positioner>
