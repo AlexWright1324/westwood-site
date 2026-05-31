@@ -19,7 +19,7 @@ content: |-
 
   **Exhibitions:**
 
-  (June '26) - _TRANSMISSION,_ group exhibition, Sapphos Cafe & Trans Pride Plymouth
+  (June '26) - _TRANSMISSION,_ group exhibition, Sappho's Cafe & Trans Pride Plymouth
 
   (May '26) - _DEHUMANISED,_ duo exhibition with Travis Smitten, StudionAme, Leicester
 
