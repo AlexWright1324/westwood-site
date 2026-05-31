@@ -7,7 +7,7 @@ content: |-
 
   Instagram: [@kasiewestwood](https://www.instagram.com/kasiewestwood/)
 
-  ---
+  ***
 
   ### CV
 
@@ -18,6 +18,8 @@ content: |-
   (2022-2023) - Art & Design Foundation Diploma (Merit), King Edward VI College, Nuneaton
 
   **Exhibitions:**
+
+  (June '26) - _TRANSMISSION,_ group exhibition, Sapphos Cafe & Trans Pride Plymouth
 
   (May '26) - _DEHUMANISED,_ duo exhibition with Travis Smitten, StudionAme, Leicester
 
