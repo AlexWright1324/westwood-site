@@ -21,10 +21,10 @@
 </script>
 
 <header class={["flex w-full items-center justify-center pt-8 pb-8", _class]} style={_style}>
-	<div class={["flex flex-col gap-y-3", boxClass]}>
+	<nav class={["flex flex-col gap-y-3", boxClass]}>
 		<a href={resolve("/")} class="text-2xl! sm:text-5xl!">Kasie Westwood</a>
 		<div class="flex flex-wrap justify-center gap-6">
-			{#each links as { href, text }}
+			{#each links as { href, text } (href)}
 				<a
 					href={resolve(href)}
 					class="hoverunderline"
@@ -34,7 +34,7 @@
 				</a>
 			{/each}
 		</div>
-	</div>
+	</nav>
 </header>
 
 <style lang="postcss">

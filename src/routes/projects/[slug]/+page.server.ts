@@ -16,8 +16,16 @@ export const load: PageServerLoad = async ({ params }) => {
 		error(404, "Project not found")
 	}
 
+	const description = htmlToText(project.statement)
+
 	return {
+		seo: {
+			title: `${project.title} - Kasie Westwood`,
+			description,
+			type: "article"
+		},
 		project,
-		metaDescription: project.statement ? htmlToText(project.statement) : ""
+		title: project.title,
+		metaDescription: description
 	}
 }

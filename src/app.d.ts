@@ -1,3 +1,5 @@
+import type { SEOPageData } from "$lib/components/SEO.svelte"
+
 // See https://svelte.dev/docs/kit/types#app.d.ts
 // for information about these interfaces
 declare global {
@@ -11,7 +13,9 @@ declare global {
 
 		// interface Error {}
 		// interface Locals {}
-		// interface PageData {}
+		interface PageData {
+			seo: SEOPageData
+		}
 		// interface PageState {}
 	}
 }

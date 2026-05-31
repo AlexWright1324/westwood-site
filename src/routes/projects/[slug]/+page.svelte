@@ -1,12 +1,26 @@
 <script lang="ts">
+	import { page } from "$app/state"
+	import BackgroundImage from "$lib/assets/background.jpeg"
 	import ImageViewer from "$lib/components/ImageViewer.svelte"
+	import { sanitise } from "$lib/sanitise"
 
 	let { data } = $props()
 </script>
 
 <svelte:head>
 	<title>{data.project.title} - Kasie Westwood</title>
-	<meta name="description" content={data.metaDescription} />
+	<meta property="og:title" content="{data.project.title} - Kasie Westwood" />
+	<meta property="og:description" name="description" content={data.metaDescription} />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content={page.url.href} />
+	<!-- Use the first project piece as the image, fallback to background if none available -->
+	<meta
+		property="og:image"
+		content={data.project.pieces.length > 0
+			? new URL(data.project.pieces[0].image.src, page.url.href).href
+			: new URL(BackgroundImage, page.url.href).href}
+	/>
 </svelte:head>
 
 <section class="flex flex-col gap-8">
@@ -15,7 +29,8 @@
 	>
 		<h1 class="h1">{data.project.title}</h1>
 		<article class="markdown">
-			{@html data.project.statement}
+			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+			{@html await sanitise(data.project.statement)}
 		</article>
 	</header>
 
@@ -31,7 +46,7 @@
 	</div>
 
 	<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-		{#each data.project.pieces as piece}
+		{#each data.project.pieces as piece (piece.title)}
 			<li>
 				<ImageViewer
 					src={piece.image.src}

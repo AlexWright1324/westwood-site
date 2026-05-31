@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/forms";
 
 /* Only dynamic heading classes need safelisting (`h${depth}` in markdown renderer). */
-@source inline("h1 h2 h3 h4 h5 h6");
+@source inline("h1 h2 h3 h4 h5 h6 hr");
 
 @import "@skeletonlabs/skeleton";
 @import "@skeletonlabs/skeleton-svelte";

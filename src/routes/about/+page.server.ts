@@ -10,8 +10,14 @@ export const load: PageServerLoad = async () => {
 		error(404, "Page not found")
 	}
 
+	const description = htmlToText(page.content)
+
 	return {
+		seo: {
+			title: "About - Kasie Westwood",
+			description
+		},
 		page,
-		metaDescription: htmlToText(page.content)
+		metaDescription: description
 	}
 }

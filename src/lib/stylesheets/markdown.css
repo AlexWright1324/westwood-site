@@ -1,5 +1,9 @@
 /* Tailwind CSS classes for styling markdown content. */
 
 .markdown {
-	@apply space-y-2;
+	@apply flex flex-col space-y-2;
+
+	hr {
+		@apply mt-4 mb-4;
+	}
 }
