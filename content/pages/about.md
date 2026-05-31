@@ -1,9 +1,4 @@
 ---
-title: About
-content: |-
-  ### **Bio**
-
-  **BLEH BLEHBLEH**
-
-  **- - -**
+title: Artist Bio
+content: Charcoal drawings and small-scale paintings are at the heart of Kasie Westwood’s practice. Westwood has previously used his work to explore who exactly he is, and, lately, that has extended to exploring his complex relationship with gender. Using his personal interest in cinema and horror films (once forms of escapism), Westwood investigates the similarities between classic horror monsters and the transgender experience. Small, metal paintings become vessels, showing how the werewolf transformation can be used as a metaphor for puberty or transitioning. On the contrary, Westwood’s realistic charcoal drawings take from more classical influences, such as life-drawing and renaissance statues. The drawings invite the audience to question what they are truly looking at. Clearly bodily, but… How is it situated? What part of the body is it? Any questions, or even discomfort, are welcome by the artist. These pieces, as well as the confusion they bring, aim to represent feelings of dysphoria; an uncomfortable truth as opposed to the fantastical monster paintings.
 ---
