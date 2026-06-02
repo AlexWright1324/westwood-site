@@ -7,6 +7,8 @@ content: |-
 
   Instagram: [@kasiewestwood](https://www.instagram.com/kasiewestwood/)
 
+  LinkedIn: [Kasie Westwood](https://www.linkedin.com/in/kasie-westwood-77371b403/)
+
   ***
 
   ### CV
