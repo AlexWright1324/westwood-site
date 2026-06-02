@@ -3,7 +3,7 @@ title: Artist Statement
 content: |-
   West Midlands based charcoal artist & painter
 
-  ### July '15 & Everything Since
+  ### July '15 (& Everything Since)
 
   I slept on top of the covers during the summer. Curtains pulled to the side, window as far open as I could push it.
 
