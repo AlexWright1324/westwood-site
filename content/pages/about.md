@@ -31,7 +31,7 @@ content: |-
 
   Fictional media were initially just escapism, until they began mirroring my experiences. Watching _Ginger Snaps_, staring in awe as Ginger progressively transformed into a beast as well as a woman. In _Interview with the Vampire,_ Claudia went through her own summer night. Her monsters thought they were saving her, but she became stuck with a curse not unlike my own; one of perpetual transformation.
 
-  Something finally clicks when I watch Lydia Pettit talk through her practice. Portraying herself as a ruthless killer or the helpless victim are ways of combating trauma, face to face.
+  Something finally clicks as I watched Lydia Pettit talk through her practice. Portraying herself as a ruthless killer or the helpless victim are ways of combating trauma, face to face.
 
   Barbara Creed helps me organise my own relationship with horror. She tells me that the genre is inherently connected to gender, that there’s a reason I’m so attached to these monsters and beasts.
 
