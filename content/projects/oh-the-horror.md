@@ -2,6 +2,11 @@
 title: Oh! The Horror!
 statement: Classic horror movie monsters, once villainised and othered, are reclaimed in _‘Oh! The Horror!’_. The likes of vampires, werewolves and Frankenstein’s monster become vessels for trans-rage, expressing feelings of resentment towards society, stereotyping and false preconceptions. I became fascinated with the idea of the sympathetic monster, taking direct inspiration from my love of horror-based media and marrying it with personal struggles with gender and transformation.
 pieces:
+  - title: Bite the Hand
+    year: '2025'
+    medium: Acrylic on MDF
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/Bite the Hand.jpg
   - title: But to Myself, I Simply Am
     year: '2025'
     medium: Acrylic on Steel
@@ -27,11 +32,6 @@ pieces:
     medium: Acrylic & Oil on Steel
     dimensions: 20cm x 20cm
     image: /src/lib/assets/uploads/It's Not You, It's Me.jpg
-  - title: Bite the Hand
-    year: '2025'
-    medium: Acrylic on MDF
-    dimensions: 20cm x 20cm
-    image: /src/lib/assets/uploads/Bite the Hand.jpg
   - title: Festering
     year: '2026'
     medium: Acrylic & Oil on Steel
