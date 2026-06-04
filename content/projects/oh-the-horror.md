@@ -52,4 +52,9 @@ pieces:
     medium: Acrylic & Oil on Steel
     dimensions: 20cm x 20cm
     image: /src/lib/assets/uploads/TOTH2.JPG
+  - title: Outgrowing My Assigned Form
+    year: '2026'
+    medium: Acrylic & Oil on  Steel
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/Outgrowing.JPG
 ---
