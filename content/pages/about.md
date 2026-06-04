@@ -3,7 +3,7 @@ title: Artist Statement
 content: |-
   West Midlands based charcoal artist & painter
 
-  ---
+  ***
 
   ### July '15 (& Everything Since)
 
