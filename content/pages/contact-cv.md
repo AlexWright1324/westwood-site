@@ -9,6 +9,8 @@ content: |-
 
   LinkedIn: [Kasie Westwood](https://www.linkedin.com/in/kasie-westwood-77371b403/)
 
+  TikTok: [@kasiewestwood](https://www.tiktok.com/@kasiewestwood)
+
   ***
 
   ### CV
