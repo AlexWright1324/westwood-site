@@ -19,12 +19,12 @@ pieces:
     image: /src/lib/assets/uploads/Primal Form - Kasie Westwood.jpg
   - title: Skin Deep (Maybe Deeper)
     year: '2026'
-    medium: Acrylic and Oil on Steel
+    medium: Acrylic & Oil on Steel
     dimensions: 20cm x 20cm
     image: /src/lib/assets/uploads/Skin Deep (Maybe Deeper).jpeg
   - title: It’s Not You, It’s Me
     year: '2026'
-    medium: Acrylic and Oil on Steel
+    medium: Acrylic & Oil on Steel
     dimensions: 20cm x 20cm
     image: /src/lib/assets/uploads/It's Not You, It's Me.jpg
   - title: Bite the Hand
@@ -32,4 +32,24 @@ pieces:
     medium: Acrylic on MDF
     dimensions: 20cm x 20cm
     image: /src/lib/assets/uploads/Bite the Hand.jpg
+  - title: Festering
+    year: '2026'
+    medium: Acrylic & Oil on Steel
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/F1.JPG
+  - title: Get Me Out
+    year: '2026'
+    medium: Acrylic & Oil on Steel
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/GMO1.JPG
+  - title: Taking Back Control
+    year: '2026'
+    medium: Acrylic & Oil on Steel
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/TBC2.JPG
+  - title: Thrill of the Hunt
+    year: '2026'
+    medium: Acrylic & Oil on Steel
+    dimensions: 20cm x 20cm
+    image: /src/lib/assets/uploads/TOTH2.JPG
 ---
